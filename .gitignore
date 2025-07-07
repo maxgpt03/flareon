@@ -1,0 +1,61 @@
+# === Visual Studio & .NET Core ===
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Publish output
+**/publish/
+**/native/
+
+# Debug/Release folders (redundant but explicit)
+**/Debug/
+**/Release/
+
+# Project-specific
+*.pdb
+*.cache
+*.log
+*.dbmdl
+*.bak
+*.tmp
+*.ilk
+*.meta
+*.tlog
+*.vsp
+*.vspx
+
+# .NET runtime config and deps
+*.runtimeconfig.json
+*.deps.json
+
+# Compiled DLLs and EXEs
+*.dll
+*.exe
+
+# Auto-generated files
+*.AssemblyInfo.cs
+*.g.cs
+*.g.i.cs
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+# NuGet files
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
+# Obsidian
+.obsidian/
+.obsidian.lock
+workspace.json
+*.md.bak
+*.temp
